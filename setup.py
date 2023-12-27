@@ -11,7 +11,7 @@ with open("README.md", "r") as fh:
 with open("requirements.txt", "r") as fin:
     REQS = fin.read().splitlines()
 
-VERSION = "__VERSION__"
+VERSION = "0.5.1"
 
 setuptools.setup(
     version=VERSION,
@@ -20,7 +20,7 @@ setuptools.setup(
     author_email="pasqualecarmine.carbone@gmail.com",
     description="A FastAPI utility to allow Controller Class usage",
     long_description=LONG_DESCRIPTION,
-    url="https://github.com/KiraPC/fastapi-router-controller",
+    url="https://github.com/ResTrekAI/fastapi-router-controller",
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(
         exclude=["venv", "fastapi-router-controller.egg-info", "build"]
